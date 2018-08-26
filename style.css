@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #d0ced7;
+}
+
+#mainSection {
+  margin-left:10%;
+  width: 80%;
+  background: #FFFFFF;
+}
+
+.box {
+  padding: 20px;
+}
+
+.titulo {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.tituloArt {
+  font-size: 40px;
+  text-align: left;
+  padding-left: 20px
+}
+
+.subtitulo {
+  color: #8c9096;
+  font-size: 20px;
+}
+
+#mainHeader {
+  padding: 10px;
+  width: auto;
+  background: #062260;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+#navBar {
+  padding: 0;
+  background: #988d8d;
+  height: 40px;
+}
+
+#listaNav {
+  height: inherit;
+  padding-left: 2%;
+}
+
+#listaNav li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px;
+  height: inherit;
+
+}
+
+#listaNav li:hover {
+  background: #b8b1b1;
+  border-bottom: 5px solid #000;
+}
+
+#listaNav a {
+  text-decoration: none;
+}
+
+.articulo {
+  position: relative;
+}
+
+.articulo p {
+  margin-bottom: 10px;
+}
+
+
+.formBox {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.formBox label, input[type="text"],input[type="email"], textarea {
+  display: block;
+  text-transform: capitalize;
+  height: 40px;
+  width: 100%;
+}
+
+.sideBox {
+  border: 2px solid #000;
+  width: 75%;
+  margin-left: 15%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  position: relative;
+}
